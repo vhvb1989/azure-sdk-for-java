@@ -51,7 +51,6 @@ extends:
       - name: azure-sdk-template-two
         groupId: com.azure
         safeName: azuresdktemplatetwo
-        skipPublishDocMs: true
       - name: azure-sdk-template-three
         groupId: com.azure
         safeName: azuresdktemplatethree
