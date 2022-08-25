@@ -1,0 +1,12 @@
+trigger: none
+
+stages:
+    - template: /sdk/communication/communication-tests-template.yml
+      parameters:
+          PackageName: azure-communication-email
+          SafeName: azurecommunicationemail
+          EnvVars:
+              COMMUNICATION_CONNECTION_STRING: "endpoint=https://ymoh-sdk-test-comm.communication.azure.com/;accesskey=9X9ZrflHF68ueJ2T5chiFHTFyeWpt+h7XXNG7tQ4Y+GsE+nWkOqAZgF8bKkdY2e20pNxSfD/PK4s1fAxKPZvVw=="
+              RECIPIENT_ADDRESS: "acseaastesting@gmail.com"
+              SECOND_RECIPIENT_ADDRESS: "acseaastesting@gmail.com"
+              SENDER_ADDRESS: "DoNotReply@6a2b9d28-eaf9-480a-9577-ed39bf801d1b.azurecomm.net"
