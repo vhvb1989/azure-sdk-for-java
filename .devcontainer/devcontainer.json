@@ -32,7 +32,7 @@
 	},
 	"remoteUser": "codespace",
 	"overrideCommand": false,
-	"workspaceMount": "source=${localWorkspaceFolder}/sdk/Tables,target=/home/codespace/workspace,type=bind,consistency=cached",
+	"workspaceMount": "source=${localWorkspaceFolder}/sdk/Tables,target=/home/codespace/workspace/sdk/Tables,type=bind,consistency=cached",
 	"workspaceFolder": "/home/codespace/workspace",
 	"mounts": [ "source=/var/run/docker.sock,target=/var/run/docker-host.sock,type=bind" ],
 	"runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined", "--privileged" ],
